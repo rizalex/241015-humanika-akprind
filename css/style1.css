@@ -1,0 +1,94 @@
+
+
+
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	5.	SLIDERS
+/*-----------------------------------------------------------------------------------*/
+
+/* CYCLE */
+
+#cycle-wrapperr {
+	position: relative;
+	width:965px;
+	height: 350px;
+	margin: 0 auto 60px;	
+}
+
+#sliderholder-cycle {
+	width:960px;
+	height: 350px;
+	overflow: hidden;
+	background:transparent;
+	-moz-box-shadow: 0px 1px 3px #8e8e8e;
+	-webkit-box-shadow: 0px 1px 3px #8e8e8e;
+	box-shadow: 0px 1px 3px #8e8e8e;
+}
+
+.slidernav {
+	padding: 0;
+	margin: 18px 0 0 0;
+	list-style: none;
+	text-align: center;
+}
+
+.slidernav a {
+	cursor: pointer;
+	background-color: #cbcbcb; 
+	overflow: hidden;
+	width: 10px;
+	height: 10px;
+	margin: 0 3px;
+	text-indent: -99999px;
+	display: inline-block;
+}
+
+.slidernav a:hover, .slidernav .activeSlide {
+	background-color: #8c8c8c;
+}
+
+.sliderprev, .slidernext {
+	display:block;
+	width:35px;
+	height:35px;
+	background:url(../images/slider-arrows.jpg) no-repeat;
+	text-indent:-9999px;
+	border:0;
+	cursor: pointer;
+	position: absolute;
+	-moz-box-shadow: 0px 1px 2px #888;
+	-webkit-box-shadow: 0px 1px 2px #888;
+	box-shadow: 0px 1px 2px #888;
+}
+
+.slidernext {
+	background-position: right top;
+	right: -60px;
+	top: 46%;
+}
+
+.slidernext:hover {
+	background-position: right bottom;
+}
+
+.sliderprev {
+	background-position: left top;
+	left: -60px;
+	top: 46%;
+}
+
+.sliderprev:hover {
+	background-position: left bottom;
+}
+
+/* PIECEMAKER */
+
+#piecemaker-container {
+	display:block;
+	height:460px;
+	overflow:hidden;
+	margin: -10px auto 40px;
+	width: 960px;
+}
+
